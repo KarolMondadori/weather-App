@@ -1,0 +1,84 @@
+body {
+    font-family: "montserrat";
+    font-weight: 500;
+  }
+  .weather-app {
+    background-image: linear-gradient(to top, #fddb92 30%, #d1fdff 70%);
+    background-size: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(231, 227, 227, 0.3);
+    padding: 20px;
+    height: 100%;
+    max-width: 500px;
+    margin: 10px auto;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+    color: white;
+  }
+  h3 {
+    font-size: 16px;
+    color: white;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    position: relative;
+    top: 10px;
+    font-size: 32px;
+    color: white;
+  }
+  .units {
+    font-size: 14px;
+    color: white;
+    position: relative;
+    bottom: 35px;
+    left: 35px;
+  }
+  .wind {
+    color: white;
+    font-size: 15px;
+    position: relative;
+    bottom: 22px;
+  }
+  
+  .entercity {
+    border-radius: 5px;
+    border-color: whitesmoke;
+  }
+  
+  .go {
+    background-color: rgba(49, 57, 61, 0.3);
+    border-radius: 5px;
+    border: 1px solid white;
+    color: rgb(43, 43, 65);
+    position: relative;
+  }
+  .forecastNow {
+    border: 1px solid rgba(245, 245, 245, 0.3);
+    border-radius: 10px;
+    background-color: rgba(49, 57, 61, 0.5);
+  }
+  #colunaDois {
+    margin: 0 auto;
+    padding-left: 20px;
+    height: 150px;
+  }
+  #colunaUm {
+    padding-top: 5px;
+    padding-left: 30px;
+  }
+  #colunaTres {
+    position: relative;
+    top: 08px;
+  }
+  .weather-forecast-temperature {
+    font-size: 14px;
+  }
+  
