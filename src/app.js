@@ -80,7 +80,7 @@ function formatDate (timestamp) {
     }  
   }
   
-  function search(city) {
+  function searchCity(city) {
     let apiKey = "cb93351fdb5c829680012a4abc8e7ad3";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayTemperature);
@@ -124,4 +124,4 @@ function formatDate (timestamp) {
   let celsiusLink = document.querySelector("#celsius-link");
   celsiusLink.addEventListener("click", displayCelsiusTemp);
   
-  search("New York");
+  searchCity("New York");
