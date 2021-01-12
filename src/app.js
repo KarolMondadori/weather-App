@@ -64,10 +64,10 @@ function formatDate (timestamp) {
        <h4>
          ${formatHours(forecast.dt * 1000)}
        </h4>
-       <img 
+       <img
          src="http://openweathermap.org/img/wn/${
          forecast.weather[0].icon
-        }@2x.png"
+        }@2x.png" 
        />
        <div class="weather-forecast-temperature">
        <strong>
@@ -85,7 +85,7 @@ function formatDate (timestamp) {
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayTemperature);
   
-    apiUrl=`api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
+    apiUrl=`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayForecast);
   }
   
