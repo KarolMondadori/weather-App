@@ -85,7 +85,7 @@ function formatDate (timestamp) {
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayTemperature);
   
-    apiUrl=`api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apikey}&units=metric`;
+    apiUrl=`api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayForecast);
   }
   
