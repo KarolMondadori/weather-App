@@ -121,7 +121,7 @@ function formatDate (timestamp) {
   let fahrenheitLink = document.querySelector("#fahrenheit-link");
   fahrenheitLink.addEventListener("click", displayFahrenheitTemp);
   
-  let celsiusLink = document.querySelector("#fahrenheit-celsius");
+  let celsiusLink = document.querySelector("#celsius-link");
   celsiusLink.addEventListener("click", displayCelsiusTemp);
   
   search("New York");
