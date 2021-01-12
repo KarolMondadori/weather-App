@@ -62,7 +62,7 @@ function formatDate (timestamp) {
       forecastElement.innerHTML += `
       <div class="col-2">
        <h4>
-       ${formatHours(forecast.dt * 1000)}
+         ${formatHours(forecast.dt * 1000)}
        </h4>
        <img 
          src="http://openweathermap.org/img/wn/${
@@ -71,9 +71,9 @@ function formatDate (timestamp) {
        />
        <div class="weather-forecast-temperature">
        <strong>
-       ${Math.round(forecast.main.temp_max)}°
+         ${Math.round(forecast.main.temp_max)}°
        </strong> 
-       ${Math.round(forecast.main.temp_min)}°
+         ${Math.round(forecast.main.temp_min)}°
        </div>
       </div>
       `;
